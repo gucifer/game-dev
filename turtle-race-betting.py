@@ -79,5 +79,5 @@ while count=='y':
       else:
         print('You Lose!')
       break
-  backward(200)
+  hideturtle()  
   count=input("Do you want to continue(y or n)?")
