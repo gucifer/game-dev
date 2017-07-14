@@ -4,7 +4,6 @@ import json
 import turtle
 import urllib.request
 import time
-
 url='http://api.open-notify.org/astros.json'
 respose=urllib.request.urlopen(url)
 reult=json.loads(respose.read())
