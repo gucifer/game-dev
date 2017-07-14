@@ -1,0 +1,62 @@
+#!/bin/python3
+from turtle import *
+colors={
+  'verylime':'#A7E30E',
+  'reallyraspberry':'#FA057F',
+  'kindaorange':'#F6C531',
+  'somewhatblue':'#31C5F6',
+  'purplish':'#FBACE7',
+  'darkblue':'#4909D1',
+  'blueygreen':'#09D14F',
+  'yellow':'#EDF905'
+}
+screen=Screen()
+screen.setup(400,400)
+screen.bgcolor(colors['verylime'])
+color(colors['reallyraspberry'])
+style=('Arial',40,'bold')
+hideturtle()
+write('Hello',font=style,align='center')
+penup()
+right(90)
+forward(60)
+pendown()
+color(colors['kindaorange'])
+style=('Arial',40,'bold')
+write('World!',font=style,align='center')
+penup()
+backward(60)
+right(90)
+pendown()
+screen.bgcolor('black')
+color(colors['somewhatblue'])
+dot(400)
+right(90)
+forward(80)
+color(colors['kindaorange'])
+style=('Arial',40,'bold')
+write('Listen to',font=style,align='center')
+penup()
+backward(50)
+pendown()
+color(colors['purplish'])
+style=('Arial',40,'bold')
+write('people and do',font=style,align='center')
+penup()
+backward(50)
+pendown()
+color(colors['darkblue'])
+style=('Arial',40,'bold')
+write('whatever you',font=style,align='center')
+penup()
+backward(50)
+pendown()
+color(colors['blueygreen'])
+style=('Arial',40,'bold')
+write('were gonna do',font=style,align='center')
+penup()
+backward(50)
+pendown()
+color(colors['yellow'])
+style=('Arial',40,'bold')
+write('anyways!',font=style,align='center')
